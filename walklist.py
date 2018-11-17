@@ -1,3 +1,4 @@
+#dosya yöneticisi projesi için yazıldı.
 import os
 def walklist(path, liste=list(), 
 options="list"):	
@@ -19,7 +20,5 @@ options="list"):
 				os.remove(rm)
 	return liste
 #path = "/home/elementary/Here/icons"
-#walklist(path, 
-options="list")
-#print walklist(path, 
-options="remove")
+#walklist([path], options="list")
+#print walklist([path], options="remove")
