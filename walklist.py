@@ -5,7 +5,7 @@ def walklist(path, liste=list(), options="list"):
 		for beta in file:
 			liste.append(os.path.join(path,
 				beta))
-	if options == "remove":
+	if (options == "remove"):
 		liste.reverse()
 		for rm in liste:
 			if os.path.isdir(rm) is True:
