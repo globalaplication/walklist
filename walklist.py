@@ -13,7 +13,6 @@ def walklist(path, liste=list(), options="list"):
 			else:
 				os.remove(rm)
 	return liste
-  
 #path = "/home/elementary/Here/icons"
 #walklist(path, 
 options="list")
